@@ -1,0 +1,172 @@
+.button {
+  padding: 1.2rem;
+}
+
+.button.white {
+  background: white;
+  color: black;
+}
+
+.button.black {
+  background: #36312e;
+  color: white;
+}
+
+.button.primary {
+  background: #f46158;
+}
+
+.light-orange {
+  background: #f9f3eb;
+}
+
+.light-purple {
+  background: #f8f1ff;
+}
+
+.light-brown {
+  background: #f8f1ff;
+}
+
+.primary {
+  background: #f46158;
+}
+
+.header {
+  background: #f0e6e2;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2.8rem 2rem;
+}
+
+.header .nav .logo__title {
+  font-size: 1.4rem;
+}
+
+.header .nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.header .nav .navbar .nav-element {
+  padding-right: 2rem;
+}
+
+.header .nav .navbar .nav-element:last-of-type {
+  padding-right: 0;
+}
+
+.header .nav .navbar .nav-element a {
+  text-decoration: none;
+}
+
+.header .nav .navbar .nav-element .link {
+  color: #36312e;
+}
+
+.header .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+}
+
+.header .hero__title {
+  font-size: 4rem;
+}
+
+.header .action__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.header .action__container .partner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.header .action__container .partner__container .partner {
+  width: 100px;
+  margin-right: 2rem;
+}
+
+.header .action__container .partner__container .partner:last-of-type {
+  margin-right: 0;
+}
+
+.header .action__container .search__container {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem 4rem;
+}
+
+.companies .company {
+  width: 100px;
+  opacity: 0.8;
+}
+
+.explore {
+  padding: 2rem;
+}
+
+.explore__header {
+  padding: 2rem 0;
+}
+
+.explore__title {
+  font-size: 1.6rem;
+}
+
+.explore__cards {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.explore__cards .card {
+  width: 200px;
+  height: 250px;
+}
+/*# sourceMappingURL=page.css.map */
